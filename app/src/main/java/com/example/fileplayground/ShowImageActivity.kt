@@ -36,6 +36,14 @@ class ShowImageActivity : AppCompatActivity() {
 
         requestPermissions()
 
+        takeImageFromCamera()
+
+        pickImageFromGallery()
+    }
+
+
+    private fun takeImageFromCamera(){
+
         val takePicture = registerForActivityResult(ActivityResultContracts.TakePicture()){
             if (it){
                 binding.imageView.setImageURI(imageUri)
@@ -58,7 +66,16 @@ class ShowImageActivity : AppCompatActivity() {
 
             takePicture.launch(imageUri)
         }
+    }
 
+    private fun pickImageFromGallery(){
+        val pickFromGallery = registerForActivityResult(ActivityResultContracts.GetContent()){
+            binding.imageView.setImageURI(it)
+        }
+
+        binding.btnGalery.setOnClickListener {
+            pickFromGallery.launch("image/*")
+        }
     }
 
     private fun hasCameraPermission(): Boolean {

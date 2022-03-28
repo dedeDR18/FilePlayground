@@ -5,4 +5,5 @@
     <string name="des_show_image">Belajar menampilkan gambar yang diambil dari camera atau galerry</string>
     <string name="show_video">Show Video</string>
     <string name="belajar_menampilkan_video_yang_diambil_dari_camera_atau_gallery">Belajar menampilkan video yang diambil dari camera atau gallery</string>
+    <string name="gallery">gallery</string>
 </resources>
