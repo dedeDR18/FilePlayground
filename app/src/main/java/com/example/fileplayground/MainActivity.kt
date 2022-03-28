@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.fileplayground.databinding.ActivityMainBinding
+import com.example.fileplayground.show_image.ShowImageActivity
 
 class MainActivity : AppCompatActivity() {
 

@@ -13,10 +13,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FilePlayground">
         <activity
-            android:name=".ShowVideoActivity"
+            android:name=".show_video.ShowVideoActivity"
             android:exported="false" />
         <activity
-            android:name=".ShowImageActivity"
+            android:name=".show_image.ShowImageActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

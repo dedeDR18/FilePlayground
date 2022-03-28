@@ -1,4 +1,4 @@
-package com.example.fileplayground
+package com.example.fileplayground.show_video
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -14,5 +14,7 @@ class ShowVideoActivity : AppCompatActivity() {
         binding = ActivityShowVideoBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
+
+
     }
 }

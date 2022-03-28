@@ -1,15 +1,15 @@
-package com.example.fileplayground
+package com.example.fileplayground.show_image
 
 import android.Manifest
+import android.content.Intent
 import android.content.pm.PackageManager
-import android.graphics.Bitmap
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Environment
+import android.provider.MediaStore
 import android.util.Log
 import androidx.activity.result.contract.ActivityResultContracts
-import androidx.activity.result.launch
 import androidx.core.app.ActivityCompat
 import androidx.core.content.FileProvider
 import com.example.fileplayground.databinding.ActivityShowImageBinding
@@ -19,6 +19,7 @@ class ShowImageActivity : AppCompatActivity() {
 
     companion object{
         const val REQUEST_CODE = 101
+        const val GALLERY_REQ_CODE = 99
     }
 
     private val TAG = "SHOWIMAGEACTIVITY"
