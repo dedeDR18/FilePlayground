@@ -4,6 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
     tools:context=".show_video.ShowVideoActivity">
+
+    <Button
+        android:id="@+id/openGallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gallery"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/openGallery">
+
+        <Button
+            android:id="@+id/btn_share"
+            android:background="@android:color/transparent"
+            android:drawableEnd="@drawable/ic_share_24"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_gravity="right"
+            android:drawableRight="@drawable/ic_share_24" />
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

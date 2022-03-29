@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.fileplayground.databinding.ActivityMainBinding
 import com.example.fileplayground.show_image.ShowImageActivity
+import com.example.fileplayground.show_video.ShowVideoActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -18,6 +19,10 @@ class MainActivity : AppCompatActivity() {
 
         binding.showImage.setOnClickListener {
             startActivity(Intent(this, ShowImageActivity::class.java))
+        }
+
+        binding.showVideo.setOnClickListener {
+            startActivity(Intent(this, ShowVideoActivity::class.java))
         }
     }
 }
