@@ -3,7 +3,7 @@
     package="com.example.fileplayground">
 
     <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -12,6 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FilePlayground">
+        <activity
+            android:name=".recylerview.RecyclerviewActivity"
+            android:exported="false" />
         <activity
             android:name=".show_video.ShowVideoActivity"
             android:exported="false" />
