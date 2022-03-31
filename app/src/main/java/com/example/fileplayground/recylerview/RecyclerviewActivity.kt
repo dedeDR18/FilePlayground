@@ -4,23 +4,31 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.fileplayground.R
 import com.example.fileplayground.databinding.ActivityRecyclerviewBinding
+import com.example.fileplayground.recylerview.adapter.MenuAdapter
 import com.example.fileplayground.recylerview.model.Menu
 
 class RecyclerviewActivity : AppCompatActivity() {
 
-    private lateinit var binding:ActivityRecyclerviewBinding
+    private lateinit var binding: ActivityRecyclerviewBinding
+    private lateinit var menuAdapter: MenuAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         binding = ActivityRecyclerviewBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
 
+        initRv()
 
+        menuAdapter.setData(createData())
     }
 
-    private fun createData(): ArrayList<Menu>{
+    private fun initRv() = with(binding) {
+        menuAdapter = MenuAdapter()
+        rvMenu.adapter = menuAdapter
+    }
+
+    private fun createData(): ArrayList<Menu> {
         val list = ArrayList<Menu>()
 
         val menu1 = Menu(

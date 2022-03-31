@@ -6,4 +6,10 @@
     <string name="show_video">Show Video</string>
     <string name="belajar_menampilkan_video_yang_diambil_dari_camera_atau_gallery">Belajar menampilkan video yang diambil dari camera atau gallery</string>
     <string name="gallery">gallery</string>
+    <string name="makanan">MAKANAN</string>
+    <string name="nama">Nama</string>
+    <string name="jumlah">jumlah</string>
+    <string name="minuman">MINUMAN</string>
+    <string name="multiple_viewtype_desc">Recylerview (multiple view type)</string>
+    <string name="desc_show_recylerview">Belajar membuat recylerview dengan multiple view type</string>
 </resources>

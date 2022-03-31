@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.fileplayground.databinding.ActivityMainBinding
+import com.example.fileplayground.recylerview.RecyclerviewActivity
 import com.example.fileplayground.show_image.ShowImageActivity
 import com.example.fileplayground.show_video.ShowVideoActivity
 
@@ -23,6 +24,10 @@ class MainActivity : AppCompatActivity() {
 
         binding.showVideo.setOnClickListener {
             startActivity(Intent(this, ShowVideoActivity::class.java))
+        }
+
+        binding.showRecylerview.setOnClickListener {
+            startActivity(Intent(this, RecyclerviewActivity::class.java))
         }
     }
 }
