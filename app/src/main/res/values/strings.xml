@@ -12,4 +12,6 @@
     <string name="minuman">MINUMAN</string>
     <string name="multiple_viewtype_desc">Recylerview (multiple view type)</string>
     <string name="desc_show_recylerview">Belajar membuat recylerview dengan multiple view type</string>
+    <string name="custom_record_video">custom record video</string>
+    <string name="belajar_membuat_custom_video_view">belajar membuat custom video view</string>
 </resources>

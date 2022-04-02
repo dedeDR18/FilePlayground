@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FilePlayground">
         <activity
+            android:name=".custom_video.CustomVideoActivity"
+            android:exported="false" />
+        <activity
             android:name=".recylerview.RecyclerviewActivity"
             android:exported="false" />
         <activity

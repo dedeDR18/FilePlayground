@@ -3,6 +3,7 @@ package com.example.fileplayground
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.fileplayground.custom_video.CustomVideoActivity
 import com.example.fileplayground.databinding.ActivityMainBinding
 import com.example.fileplayground.recylerview.RecyclerviewActivity
 import com.example.fileplayground.show_image.ShowImageActivity
@@ -28,6 +29,10 @@ class MainActivity : AppCompatActivity() {
 
         binding.showRecylerview.setOnClickListener {
             startActivity(Intent(this, RecyclerviewActivity::class.java))
+        }
+
+        binding.showCustomVideo.setOnClickListener {
+            startActivity(Intent(this, CustomVideoActivity::class.java))
         }
     }
 }
