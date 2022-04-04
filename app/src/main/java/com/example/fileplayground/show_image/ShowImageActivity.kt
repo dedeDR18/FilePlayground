@@ -47,6 +47,7 @@ class ShowImageActivity : AppCompatActivity() {
 
         val takePicture = registerForActivityResult(ActivityResultContracts.TakePicture()){
             if (it){
+                Log.d(TAG, "uri image = $imageUri")
                 binding.imageView.setImageURI(imageUri)
             }
         }
@@ -88,6 +89,7 @@ class ShowImageActivity : AppCompatActivity() {
         if (!hasCameraPermission()){
             permissionToRequest.add(Manifest.permission.CAMERA)
         }
+
         if (permissionToRequest.isNotEmpty()){
             ActivityCompat.requestPermissions(this, permissionToRequest.toTypedArray(), REQUEST_CODE)
         }
