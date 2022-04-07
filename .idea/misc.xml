@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.33645833333333336" />
+        <entry key="app/src/main/res/layout/activity_custom_video.xml" value="0.20833333333333334" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.35777136761209233" />
         <entry key="app/src/main/res/layout/activity_recyclerview.xml" value="0.21467391304347827" />
         <entry key="app/src/main/res/layout/activity_show_image.xml" value="0.19610507246376813" />
