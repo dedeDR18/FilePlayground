@@ -14,4 +14,6 @@
     <string name="desc_show_recylerview">Belajar membuat recylerview dengan multiple view type</string>
     <string name="custom_record_video">custom record video</string>
     <string name="belajar_membuat_custom_video_view">belajar membuat custom video view</string>
+    <string name="show_timer">Show Timer</string>
+    <string name="berlajar_membuat_timer">Berlajar membuat timer</string>
 </resources>

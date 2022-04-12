@@ -3,7 +3,9 @@
     package="com.example.fileplayground">
 
     <uses-permission android:name="android.permission.CAMERA" />
+
     <uses-feature android:name="android.hardware.camera" />
+
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
@@ -14,6 +16,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FilePlayground">
+        <activity
+            android:name=".show_timer.TimerActivity"
+            android:exported="false" />
         <activity
             android:name=".custom_video.CustomVideoActivity"
             android:exported="false" />

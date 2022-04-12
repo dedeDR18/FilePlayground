@@ -7,6 +7,7 @@ import com.example.fileplayground.custom_video.CustomVideoActivity
 import com.example.fileplayground.databinding.ActivityMainBinding
 import com.example.fileplayground.recylerview.RecyclerviewActivity
 import com.example.fileplayground.show_image.ShowImageActivity
+import com.example.fileplayground.show_timer.TimerActivity
 import com.example.fileplayground.show_video.ShowVideoActivity
 
 class MainActivity : AppCompatActivity() {
@@ -33,6 +34,10 @@ class MainActivity : AppCompatActivity() {
 
         binding.showCustomVideo.setOnClickListener {
             startActivity(Intent(this, CustomVideoActivity::class.java))
+        }
+
+        binding.showTimer.setOnClickListener {
+            startActivity(Intent(this, TimerActivity::class.java))
         }
     }
 }
