@@ -3,6 +3,7 @@ package com.example.fileplayground.show_timer
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.CountDownTimer
+import android.widget.Toast
 import com.example.fileplayground.R
 import com.example.fileplayground.databinding.ActivityTimerBinding
 import java.util.*
@@ -21,6 +22,16 @@ class TimerActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
         countDown()
+        upAndDownButton()
+    }
+
+    private fun upAndDownButton(){
+        binding.btnDown.setOnClickListener{
+            Toast.makeText(this, "btn down", Toast.LENGTH_SHORT).show()
+        }
+        binding.btnUp.setOnClickListener {
+            Toast.makeText(this, "btn up", Toast.LENGTH_SHORT).show()
+        }
     }
 
     private fun countDown() {

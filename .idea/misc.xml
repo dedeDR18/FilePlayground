@@ -4,12 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.33645833333333336" />
+        <entry key="app/src/main/res/drawable/ic_arrow_down.xml" value="0.1715" />
+        <entry key="app/src/main/res/drawable/ic_arrow_up.xml" value="0.1715" />
         <entry key="app/src/main/res/layout/activity_custom_video.xml" value="0.20833333333333334" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.35777136761209233" />
         <entry key="app/src/main/res/layout/activity_recyclerview.xml" value="0.21467391304347827" />
         <entry key="app/src/main/res/layout/activity_show_image.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/activity_show_video.xml" value="0.22832369942196531" />
-        <entry key="app/src/main/res/layout/activity_timer.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_timer.xml" value="0.21547851562500003" />
         <entry key="app/src/main/res/layout/item_makanan.xml" value="0.23777173913043478" />
         <entry key="app/src/main/res/layout/item_minuman.xml" value="0.23777173913043478" />
       </map>
