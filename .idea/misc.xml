@@ -12,8 +12,10 @@
         <entry key="app/src/main/res/layout/activity_show_image.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/activity_show_video.xml" value="0.22832369942196531" />
         <entry key="app/src/main/res/layout/activity_timer.xml" value="0.21547851562500003" />
+        <entry key="app/src/main/res/layout/activity_timer_rcy.xml" value="0.29583333333333334" />
         <entry key="app/src/main/res/layout/item_makanan.xml" value="0.23777173913043478" />
         <entry key="app/src/main/res/layout/item_minuman.xml" value="0.23777173913043478" />
+        <entry key="app/src/main/res/layout/item_timer.xml" value="0.221875" />
       </map>
     </option>
   </component>

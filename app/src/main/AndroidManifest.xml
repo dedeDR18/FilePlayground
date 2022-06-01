@@ -17,6 +17,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FilePlayground">
         <activity
+            android:name=".show_timer_recylerview.TimerRcyActivity"
+            android:exported="false" />
+        <activity
             android:name=".show_timer.TimerActivity"
             android:exported="false" />
         <activity
